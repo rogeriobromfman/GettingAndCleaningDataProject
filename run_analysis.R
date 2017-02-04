@@ -90,4 +90,4 @@ names(dfEntriesTidy) <- gsub("AccMag-","AccelerationMagnitude-", names(dfEntries
 names(dfEntriesTidy) <- gsub("Mag-","Magnitude-", names(dfEntriesTidy))
 
 ## Outputs the tidy data frame
-write.table(dfEntriesTidy, file="dfEntriesTidy.csv", sep=",", row.names = FALSE)
+write.table(dfEntriesTidy, file="dfEntriesTidy.txt", sep=",", row.names = FALSE)
