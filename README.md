@@ -33,7 +33,11 @@ A series of calls to gsub are made to relabel the columns and make them easier t
 Exporting the tidy dataset
 -
 
-Finally, the data is written out to a new csv file called dfEntries.csv (using write.table)
+Finally, the data is written out to a new txt file called dfEntries.txt (using write.table)
+
+In order to read teh data back into R, please use 
+
+read.table(dfEntriesTidy, file="dfEntriesTidy.txt", sep=",", header=TRUE)
 
 
 > Written with [StackEdit](https://stackedit.io/).
